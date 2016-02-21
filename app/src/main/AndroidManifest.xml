@@ -26,6 +26,7 @@
             android:label="@string/sort"
             android:name=".activity.SortActivity"/>
         <activity
+            android:label="@string/action_settings"
             android:theme="@style/WebTheme"
             android:name=".activity.SettingActivity"/>
         <activity
