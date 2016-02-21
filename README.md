@@ -14,3 +14,11 @@
 
 ##apk下载：
 ###[直接下载](http://fir.im/gank4c)
+
+##截图：
+<img src="https://github.com/developerbenwu/Gank4Camp/blob/master/art/0.png" width = "250" height = "444" alt="图片名称" align=center />
+<img src="https://github.com/developerbenwu/Gank4Camp/blob/master/art/1.png" width = "250" height = "444" alt="图片名称" align=center />
+<img src="https://github.com/developerbenwu/Gank4Camp/blob/master/art/2.png" width = "250" height = "444" alt="图片名称" align=center />
+<img src="https://github.com/developerbenwu/Gank4Camp/blob/master/art/3.png" width = "250" height = "444" alt="图片名称" align=center />
+<img src="https://github.com/developerbenwu/Gank4Camp/blob/master/art/4.png" width = "250" height = "444" alt="图片名称" align=center />
+<img src="https://github.com/developerbenwu/Gank4Camp/blob/master/art/5.png" width = "250" height = "444" alt="图片名称" align=center />
