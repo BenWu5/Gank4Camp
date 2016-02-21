@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">干货集中营</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_home">主页</string>
+    <string name="action_collection">收藏</string>
+    <string name="action_luck">手气不错</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="front_end">前端</string>
+    <string name="video">休息视频</string>
+    <string name="girl">福利</string>
+    <string name="resources">拓展资源</string>
+    <string name="recommend">瞎推荐</string>
+    <string name="search">搜索</string>
+    <string name="latest">最新</string>
+    <string name="sort">排序</string>
+    <string name="copy_the_url">复制这个URL</string>
+    <string name="open_in_browser">在浏览器打开</string>
+    <string name="collect">收藏</string>
+    <string name="share">分享</string>
+    <string name="type">分类</string>
+    <string name="more">更多</string>
+    <string name="copied_to_clipboard">复制到剪切板</string>
+    <string name="action_about">关于</string>
+    <string name="all">全部</string>
+
+
+    <string name="setting_theme">选择主题</string>
+    <string name="theme_auto">自动</string>
+    <string name="theme_light">亮</string>
+    <string name="theme_dark">暗</string>
+    <string name="open_url">打开url</string>
+    <string name="browser">浏览器</string>
+    <string name="web_view">WebView</string>
+    <string name="about">About</string>
+    <string name="save">保存</string>
+    <string name="contact_us">联系我们</string>
+    <string name="clear_the_cache">清理缓存</string>
+    <string name="empty">空</string>
+    <string name="no_more">已加载全部</string>
+</resources>

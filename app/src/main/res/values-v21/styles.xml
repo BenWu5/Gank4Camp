@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/app_main_color</item>
+        <item name="colorPrimaryDark">@color/app_dark_color</item>
+        <item name="colorAccent">@color/app_main_color</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="MainTheme" parent="AppTheme">
+        <item name="android:statusBarColor">#00000000</item>
+    </style>
+
+    <style name="WebTheme" parent="AppTheme">
+        <item name="android:statusBarColor">#00000000</item>
+        <item name="android:windowBackground">@color/web_background</item>
+    </style>
+
+    <style name="ViewerTheme" parent="ViewerThemeBase">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:statusBarColor">#10000000</item>
+    </style>
+</resources>

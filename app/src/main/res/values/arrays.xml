@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="collection_type">
+        <item>@string/all</item>
+        <item>@string/android</item>
+        <item>@string/ios</item>
+        <item>@string/recommend</item>
+        <item>@string/resources</item>
+        <item>@string/front_end</item>
+        <item>@string/video</item>
+    </string-array>
+
+    <string-array name="theme_list">
+        <item>@string/theme_auto</item>
+        <item>@string/theme_light</item>
+        <item>@string/theme_dark</item>
+    </string-array>
+
+    <string-array name="way_open_url">
+        <item>@string/web_view</item>
+        <item>@string/browser</item>
+    </string-array>
+</resources>
