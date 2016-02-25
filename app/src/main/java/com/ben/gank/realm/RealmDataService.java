@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.BitmapFactory;
 import android.graphics.Point;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.ben.gank.Config;
 import com.ben.gank.model.Bookmark;

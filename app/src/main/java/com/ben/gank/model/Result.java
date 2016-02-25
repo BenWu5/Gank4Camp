@@ -29,7 +29,7 @@ public class Result implements Serializable{
     @SerializedName("used")
     @Expose
     private boolean used;
-    @SerializedName("objectId")
+    @SerializedName("_id")
     @Expose
     private String objectId;
     @SerializedName("createdAt")
@@ -39,7 +39,7 @@ public class Result implements Serializable{
     @Expose
     private String updatedAt;
 
-    private DateTime publishedDateTime;
+    private DateTime createdDateTime;
     /**
      * 
      * @return
@@ -202,11 +202,11 @@ public class Result implements Serializable{
         this.updatedAt = updatedAt;
     }
 
-    public DateTime getPublishedDataTime(){
-        if(publishedDateTime==null){
-            publishedDateTime = MyDateUtils.formatDateFromStr(publishedAt);
+    public DateTime getCreatedDateTime(){
+        if(createdDateTime==null){
+            createdDateTime = MyDateUtils.formatDateFromStr(createdAt);
         }
-        return publishedDateTime;
+        return createdDateTime;
     }
 
 }

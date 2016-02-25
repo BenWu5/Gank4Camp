@@ -55,7 +55,7 @@ public class GankAdapter extends RecyclerView.Adapter<GankAdapter.FunnyViewHolde
 
     @Override
     public long getHeaderId(int position) {
-        return mDatas.get(position).getPublishedDataTime().withTimeAtStartOfDay().getMillis();
+        return mDatas.get(position).getCreatedDateTime().withTimeAtStartOfDay().getMillis();
     }
 
     @Override
@@ -65,7 +65,7 @@ public class GankAdapter extends RecyclerView.Adapter<GankAdapter.FunnyViewHolde
 
     @Override
     public void onBindHeaderViewHolder(HeaderViewHolder viewHolder, int position) {
-        viewHolder.titleTextView.setText(DateUtils.formatDateTime(mContext, mDatas.get(position).getPublishedDataTime().getMillis(), DateUtils.FORMAT_SHOW_DATE));
+        viewHolder.titleTextView.setText(DateUtils.formatDateTime(mContext, mDatas.get(position).getCreatedDateTime().getMillis(), DateUtils.FORMAT_SHOW_DATE));
     }
 
     class FunnyViewHolder extends RecyclerView.ViewHolder {

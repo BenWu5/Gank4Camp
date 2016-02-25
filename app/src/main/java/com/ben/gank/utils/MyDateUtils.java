@@ -1,16 +1,25 @@
 package com.ben.gank.utils;
 
+import android.text.TextUtils;
+import android.util.Log;
+
 import org.joda.time.DateTime;
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
+import org.joda.time.format.ISODateTimeFormat;
 
 import java.util.Date;
 
 
 public class MyDateUtils {
     public static DateTime formatDateFromStr(final String dateStr) {
-        DateTimeFormatter dtf = DateTimeFormat.forPattern("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'");
-        return dtf.parseDateTime(dateStr);
+        DateTime dateTime = new DateTime();
+        if(!TextUtils.isEmpty(dateStr)) {
+            try {
+                dateTime = DateTime.parse(dateStr, ISODateTimeFormat.dateTimeParser());
+            }catch (Exception e){
+                Log.i("Exception:", e.getMessage());
+            }
+        }
+        return dateTime;
 
     }
 
