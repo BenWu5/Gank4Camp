@@ -30,6 +30,7 @@
             android:theme="@style/WebTheme"
             android:name=".activity.SettingActivity"/>
         <activity
+            android:launchMode="singleTop"
             android:theme="@style/WebTheme"
             android:name=".activity.WebActivity"/>
         <activity

@@ -125,6 +125,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 mDrawerLayout.closeDrawer(GravityCompat.START);
             }else{
                 finish();
+                overridePendingTransition(0, R.anim.out_to_bottom);
             }
             return true;
         }
